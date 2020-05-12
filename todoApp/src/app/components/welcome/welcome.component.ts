@@ -12,7 +12,6 @@ export class WelcomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(){
-    this.message=5
     console.log(this.message)
   }
 
