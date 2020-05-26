@@ -9,7 +9,7 @@ export class HardcodedAuthenticaionService {
   }
 
   authenticate(username, password) {
-    if (username === "Haudi" && password === 'schaudi') {
+    if (username === "Haudi" && password === 'Schaudi') {
       return true;
     }
     return false;
